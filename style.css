@@ -12,13 +12,13 @@ body{
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background: #E3F2FD;
+  background: #0B85FF;
 }
 .wrapper{
   height: 270px;
   width: 420px;
   border-radius: 7px;
-  background: #0B85FF;
+  background: #fff;
   padding: 30px 30px 35px;
   transition: height 0.2s ease;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -33,7 +33,7 @@ body{
   user-select: none;
   text-align: center;
   border-radius: 7px;
-  background: #fff;
+  background: #0B85FF;
   align-items: center;
   justify-content: center;
   transition: height 0.2s ease;
@@ -53,11 +53,11 @@ form img{
   display: none;
 }
 form .content i{
-  color: #0B85FF;
+  color: #fff;
   font-size: 55px;
 }
 form .content p{
-  color: #0B85FF;
+  color: #fff;
   margin-top: 15px;
   font-size: 16px;
 }
@@ -109,9 +109,9 @@ textarea:hover::-webkit-scrollbar-thumb{
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
-  color: #0B85FF;
+  color: #fff;
   border-radius: 5px;
-  background: #fff;
+  background: #0B85FF;
   transition: transform 0.3s ease;
   width: calc(100% / 2 - 10px);
 }
