@@ -31,7 +31,11 @@ fileInp.addEventListener("change", async e => {
 
 copyBtn.addEventListener("click", () => {
     let text = document.querySelector("textarea").textContent;
-    navigator.clipboard.writeText(text);
+    let copied = navigator.clipboard.writeText(text);
+    if(copied){
+        copyBtn.innerText = "Text Copied";
+    }
+    
 });
 
 form.addEventListener("click", () => fileInp.click());

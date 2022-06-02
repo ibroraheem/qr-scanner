@@ -76,12 +76,12 @@ form .content p{
   height: 128px;
   outline: none;
   resize: none;
-  color: #fff;
+  color: #0B85FF;
   font-size: 18px;
   background: none;
   border-radius: 5px;
   padding: 10px 15px;
-  border: 1px solid #fff;
+  border: 1px solid #0B85FF;
 }
 textarea::-webkit-scrollbar{
   width: 0px;
